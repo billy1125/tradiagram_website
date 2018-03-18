@@ -1,0 +1,2279 @@
+[
+  {
+    "KIND": "STATION",
+    "ID": 1001,
+    "DSC": "基隆",
+    "EXTRA1": "Keelung",
+    "EXTRA2": 1,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1029,
+    "DSC": "三坑",
+    "EXTRA1": "Sankeng",
+    "EXTRA2": 2,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1002,
+    "DSC": "八堵",
+    "EXTRA1": "Badu",
+    "EXTRA2": 3,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1002,
+    "DSC": "八堵",
+    "EXTRA1": "Badu",
+    "EXTRA2": 3,
+    "EXTRA3": 18,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1003,
+    "DSC": "七堵",
+    "EXTRA1": "Cidu",
+    "EXTRA2": 4,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1030,
+    "DSC": "百福",
+    "EXTRA1": "na",
+    "EXTRA2": 5,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1004,
+    "DSC": "五堵",
+    "EXTRA1": "Wudu",
+    "EXTRA2": 6,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1005,
+    "DSC": "汐止",
+    "EXTRA1": "Sijhih",
+    "EXTRA2": 7,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1031,
+    "DSC": "汐科",
+    "EXTRA1": "na",
+    "EXTRA2": 8,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1006,
+    "DSC": "南港",
+    "EXTRA1": "Nangang",
+    "EXTRA2": 9,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1007,
+    "DSC": "松山",
+    "EXTRA1": "Songshan",
+    "EXTRA2": 10,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1008,
+    "DSC": "台北",
+    "EXTRA1": "Taipei",
+    "EXTRA2": 11,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1009,
+    "DSC": "萬華",
+    "EXTRA1": "Wanhua",
+    "EXTRA2": 12,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1011,
+    "DSC": "板橋",
+    "EXTRA1": "Banciao",
+    "EXTRA2": 13,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1032,
+    "DSC": "浮洲",
+    "EXTRA1": "Fuzhou",
+    "EXTRA2": 14,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1012,
+    "DSC": "樹林",
+    "EXTRA1": "Shulin",
+    "EXTRA2": 15,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1013,
+    "DSC": "山佳",
+    "EXTRA1": "Shanjia",
+    "EXTRA2": 16,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1014,
+    "DSC": "鶯歌",
+    "EXTRA1": "Yingge",
+    "EXTRA2": 17,
+    "EXTRA3": 1,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1015,
+    "DSC": "桃園",
+    "EXTRA1": "Taoyuan",
+    "EXTRA2": 18,
+    "EXTRA3": 2,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1016,
+    "DSC": "內壢",
+    "EXTRA1": "Neili",
+    "EXTRA2": 19,
+    "EXTRA3": 2,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1017,
+    "DSC": "中壢",
+    "EXTRA1": "Jhongli",
+    "EXTRA2": 20,
+    "EXTRA3": 2,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1018,
+    "DSC": "埔心",
+    "EXTRA1": "Pusin",
+    "EXTRA2": 21,
+    "EXTRA3": 2,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1019,
+    "DSC": "楊梅",
+    "EXTRA1": "Yangmei",
+    "EXTRA2": 22,
+    "EXTRA3": 2,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1020,
+    "DSC": "富岡",
+    "EXTRA1": "Fugang",
+    "EXTRA2": 23,
+    "EXTRA3": 2,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1033,
+    "DSC": "北湖",
+    "EXTRA1": "BaiHwu",
+    "EXTRA2": 24,
+    "EXTRA3": 3,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1021,
+    "DSC": "湖口",
+    "EXTRA1": "Hukou",
+    "EXTRA2": 25,
+    "EXTRA3": 3,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1022,
+    "DSC": "新豐",
+    "EXTRA1": "Sinfong",
+    "EXTRA2": 26,
+    "EXTRA3": 3,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1023,
+    "DSC": "竹北",
+    "EXTRA1": "Jhubei",
+    "EXTRA2": 27,
+    "EXTRA3": 3,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2210,
+    "DSC": "內灣",
+    "EXTRA1": "Neiwan",
+    "EXTRA2": 28,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2209,
+    "DSC": "富貴",
+    "EXTRA1": "Fuguei",
+    "EXTRA2": 29,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2208,
+    "DSC": "合興",
+    "EXTRA1": "Hesing",
+    "EXTRA2": 30,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2207,
+    "DSC": "九讚頭",
+    "EXTRA1": "jiouzantou",
+    "EXTRA2": 31,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2206,
+    "DSC": "橫山",
+    "EXTRA1": "Hengshan",
+    "EXTRA2": 32,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2205,
+    "DSC": "竹東",
+    "EXTRA1": "Jhudong",
+    "EXTRA2": 33,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2211,
+    "DSC": "榮華",
+    "EXTRA1": "Ronghua",
+    "EXTRA2": 34,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2204,
+    "DSC": "上員",
+    "EXTRA1": "Shangyuan",
+    "EXTRA2": 35,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2203,
+    "DSC": "竹中",
+    "EXTRA1": "Jhujhong",
+    "EXTRA2": 36,
+    "EXTRA3": 3,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2203,
+    "DSC": "竹中",
+    "EXTRA1": "Jhujhong",
+    "EXTRA2": 36,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2203,
+    "DSC": "竹中",
+    "EXTRA1": "Jhujhong",
+    "EXTRA2": 36,
+    "EXTRA3": 19,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2214,
+    "DSC": "六家",
+    "EXTRA1": "Liujia",
+    "EXTRA2": 37,
+    "EXTRA3": 19,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2213,
+    "DSC": "新莊",
+    "EXTRA1": "Xinzhuang",
+    "EXTRA2": 38,
+    "EXTRA3": 3,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2213,
+    "DSC": "新莊",
+    "EXTRA1": "Xinzhuang",
+    "EXTRA2": 38,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2213,
+    "DSC": "新莊",
+    "EXTRA1": "Xinzhuang",
+    "EXTRA2": 38,
+    "EXTRA3": 19,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2212,
+    "DSC": "千甲",
+    "EXTRA1": "Qianjia",
+    "EXTRA2": 39,
+    "EXTRA3": 3,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2212,
+    "DSC": "千甲",
+    "EXTRA1": "Qianjia",
+    "EXTRA2": 39,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2212,
+    "DSC": "千甲",
+    "EXTRA1": "Qianjia",
+    "EXTRA2": 39,
+    "EXTRA3": 19,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1024,
+    "DSC": "北新竹",
+    "EXTRA1": "North Hsinchu",
+    "EXTRA2": 40,
+    "EXTRA3": 3,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1024,
+    "DSC": "北新竹",
+    "EXTRA1": "North Hsinchu",
+    "EXTRA2": 40,
+    "EXTRA3": 15,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1024,
+    "DSC": "北新竹",
+    "EXTRA1": "North Hsinchu",
+    "EXTRA2": 40,
+    "EXTRA3": 19,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1025,
+    "DSC": "新竹",
+    "EXTRA1": "Hsinchu",
+    "EXTRA2": 41,
+    "EXTRA3": 3,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1025,
+    "DSC": "新竹",
+    "EXTRA1": "Hsinchu",
+    "EXTRA2": 41,
+    "EXTRA3": 15,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1025,
+    "DSC": "新竹",
+    "EXTRA1": "Hsinchu",
+    "EXTRA2": 41,
+    "EXTRA3": 19,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1026,
+    "DSC": "香山",
+    "EXTRA1": "Siangshan",
+    "EXTRA2": 42,
+    "EXTRA3": 3,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1027,
+    "DSC": "崎頂",
+    "EXTRA1": "Ciding",
+    "EXTRA2": 43,
+    "EXTRA3": 3,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1028,
+    "DSC": "竹南",
+    "EXTRA1": "Jhunan",
+    "EXTRA2": 44,
+    "EXTRA3": 4,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1102,
+    "DSC": "談文",
+    "EXTRA1": "Tanwan",
+    "EXTRA2": 45,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1103,
+    "DSC": "談文南",
+    "EXTRA1": "Tanwannan",
+    "EXTRA2": 46,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1104,
+    "DSC": "大山",
+    "EXTRA1": "Dashan",
+    "EXTRA2": 47,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1105,
+    "DSC": "後龍",
+    "EXTRA1": "Houlong",
+    "EXTRA2": 48,
+    "EXTRA3": 4,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1106,
+    "DSC": "龍港",
+    "EXTRA1": "Longgang",
+    "EXTRA2": 49,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1107,
+    "DSC": "白沙屯",
+    "EXTRA1": "Baishatun",
+    "EXTRA2": 50,
+    "EXTRA3": 4,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1108,
+    "DSC": "新埔",
+    "EXTRA1": "Sinpu",
+    "EXTRA2": 51,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1109,
+    "DSC": "通霄",
+    "EXTRA1": "Tongsiao",
+    "EXTRA2": 52,
+    "EXTRA3": 4,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1110,
+    "DSC": "苑裡",
+    "EXTRA1": "Yuanli",
+    "EXTRA2": 53,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1111,
+    "DSC": "日南",
+    "EXTRA1": "Rihnan",
+    "EXTRA2": 54,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1112,
+    "DSC": "大甲",
+    "EXTRA1": "Dajia",
+    "EXTRA2": 55,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1113,
+    "DSC": "台中港",
+    "EXTRA1": "Taichung Port",
+    "EXTRA2": 56,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1114,
+    "DSC": "清水",
+    "EXTRA1": "Cingshuei",
+    "EXTRA2": 57,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1115,
+    "DSC": "沙鹿",
+    "EXTRA1": "Shalu",
+    "EXTRA2": 58,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1116,
+    "DSC": "龍井",
+    "EXTRA1": "Longjing",
+    "EXTRA2": 59,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1117,
+    "DSC": "大肚",
+    "EXTRA1": "Dadu",
+    "EXTRA2": 60,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1118,
+    "DSC": "追分",
+    "EXTRA1": "Jhuifen",
+    "EXTRA2": 61,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1302,
+    "DSC": "造橋",
+    "EXTRA1": "Zaociao",
+    "EXTRA2": 62,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1304,
+    "DSC": "豐富",
+    "EXTRA1": "Fongfu",
+    "EXTRA2": 63,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1305,
+    "DSC": "苗栗",
+    "EXTRA1": "Miaoli",
+    "EXTRA2": 64,
+    "EXTRA3": 4,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1307,
+    "DSC": "南勢",
+    "EXTRA1": "Nanshih",
+    "EXTRA2": 65,
+    "EXTRA3": 4,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1308,
+    "DSC": "銅鑼",
+    "EXTRA1": "Tongluo",
+    "EXTRA2": 66,
+    "EXTRA3": 4,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1310,
+    "DSC": "三義",
+    "EXTRA1": "Sanyi",
+    "EXTRA2": 67,
+    "EXTRA3": 4,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1314,
+    "DSC": "泰安",
+    "EXTRA1": "Taian",
+    "EXTRA2": 68,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1315,
+    "DSC": "后里",
+    "EXTRA1": "Houli",
+    "EXTRA2": 69,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1317,
+    "DSC": "豐原",
+    "EXTRA1": "Fongyuan",
+    "EXTRA2": 70,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1318,
+    "DSC": "潭子",
+    "EXTRA1": "Tanzih",
+    "EXTRA2": 71,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1319,
+    "DSC": "台中",
+    "EXTRA1": "Taichung",
+    "EXTRA2": 72,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1320,
+    "DSC": "烏日",
+    "EXTRA1": "Wurih",
+    "EXTRA2": 73,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1321,
+    "DSC": "成功",
+    "EXTRA1": "Chenggong",
+    "EXTRA2": 74,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1322,
+    "DSC": "大慶",
+    "EXTRA1": "Dacing",
+    "EXTRA2": 75,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1323,
+    "DSC": "太原",
+    "EXTRA1": "Taiyuan",
+    "EXTRA2": 76,
+    "EXTRA3": 5,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1324,
+    "DSC": "新烏日",
+    "EXTRA1": "na",
+    "EXTRA2": 77,
+    "EXTRA3": 5,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1120,
+    "DSC": "彰化",
+    "EXTRA1": "Changhua",
+    "EXTRA2": 78,
+    "EXTRA3": 6,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1202,
+    "DSC": "花壇",
+    "EXTRA1": "Huatan",
+    "EXTRA2": 79,
+    "EXTRA3": 6,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1240,
+    "DSC": "大村",
+    "EXTRA1": "Datsun",
+    "EXTRA2": 80,
+    "EXTRA3": 6,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1203,
+    "DSC": "員林",
+    "EXTRA1": "Yuanlin",
+    "EXTRA2": 81,
+    "EXTRA3": 6,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1204,
+    "DSC": "永靖",
+    "EXTRA1": "Yongjing",
+    "EXTRA2": 82,
+    "EXTRA3": 6,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1205,
+    "DSC": "社頭",
+    "EXTRA1": "Shetou",
+    "EXTRA2": 83,
+    "EXTRA3": 6,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1206,
+    "DSC": "田中",
+    "EXTRA1": "Tianjhong",
+    "EXTRA2": 84,
+    "EXTRA3": 6,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1207,
+    "DSC": "二水",
+    "EXTRA1": "Ershuei",
+    "EXTRA2": 85,
+    "EXTRA3": 6,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1207,
+    "DSC": "二水",
+    "EXTRA1": "Ershuei",
+    "EXTRA2": 85,
+    "EXTRA3": 16,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2702,
+    "DSC": "源泉",
+    "EXTRA1": "Yuanciyuan",
+    "EXTRA2": 86,
+    "EXTRA3": 16,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2703,
+    "DSC": "濁水",
+    "EXTRA1": "Jhuoshuei",
+    "EXTRA2": 87,
+    "EXTRA3": 16,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2704,
+    "DSC": "龍泉",
+    "EXTRA1": "Lungcyuan",
+    "EXTRA2": 88,
+    "EXTRA3": 16,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2705,
+    "DSC": "集集",
+    "EXTRA1": "Jiji",
+    "EXTRA2": 89,
+    "EXTRA3": 16,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2706,
+    "DSC": "水里",
+    "EXTRA1": "Shueili",
+    "EXTRA2": 90,
+    "EXTRA3": 16,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2707,
+    "DSC": "車埕",
+    "EXTRA1": "Checheng",
+    "EXTRA2": 91,
+    "EXTRA3": 16,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1208,
+    "DSC": "林內",
+    "EXTRA1": "Linnei",
+    "EXTRA2": 92,
+    "EXTRA3": 7,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1209,
+    "DSC": "石榴",
+    "EXTRA1": "Shihliou",
+    "EXTRA2": 93,
+    "EXTRA3": 7,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1210,
+    "DSC": "斗六",
+    "EXTRA1": "Douliou",
+    "EXTRA2": 94,
+    "EXTRA3": 7,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1211,
+    "DSC": "斗南",
+    "EXTRA1": "Dounan",
+    "EXTRA2": 95,
+    "EXTRA3": 7,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1212,
+    "DSC": "石龜",
+    "EXTRA1": "Shihguei",
+    "EXTRA2": 96,
+    "EXTRA3": 7,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1213,
+    "DSC": "大林",
+    "EXTRA1": "Dalin",
+    "EXTRA2": 97,
+    "EXTRA3": 8,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1214,
+    "DSC": "民雄",
+    "EXTRA1": "Minsyong",
+    "EXTRA2": 98,
+    "EXTRA3": 8,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1241,
+    "DSC": "嘉北",
+    "EXTRA1": "ChiaPei",
+    "EXTRA2": 99,
+    "EXTRA3": 8,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1215,
+    "DSC": "嘉義",
+    "EXTRA1": "Chiayi",
+    "EXTRA2": 100,
+    "EXTRA3": 8,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1217,
+    "DSC": "水上",
+    "EXTRA1": "Shueishang",
+    "EXTRA2": 101,
+    "EXTRA3": 8,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1218,
+    "DSC": "南靖",
+    "EXTRA1": "Nanjing",
+    "EXTRA2": 102,
+    "EXTRA3": 8,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1219,
+    "DSC": "後壁",
+    "EXTRA1": "Houbi",
+    "EXTRA2": 103,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1220,
+    "DSC": "新營",
+    "EXTRA1": "Sinying",
+    "EXTRA2": 104,
+    "EXTRA3": 9,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1221,
+    "DSC": "柳營",
+    "EXTRA1": "Liouying",
+    "EXTRA2": 105,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1222,
+    "DSC": "林鳳營",
+    "EXTRA1": "Linfongying",
+    "EXTRA2": 106,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1223,
+    "DSC": "隆田",
+    "EXTRA1": "Longtian",
+    "EXTRA2": 107,
+    "EXTRA3": 9,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1224,
+    "DSC": "拔林",
+    "EXTRA1": "Balin",
+    "EXTRA2": 108,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1225,
+    "DSC": "善化",
+    "EXTRA1": "Shanhua",
+    "EXTRA2": 109,
+    "EXTRA3": 9,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1244,
+    "DSC": "南科",
+    "EXTRA1": "Nanke",
+    "EXTRA2": 110,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1226,
+    "DSC": "新市",
+    "EXTRA1": "Sinshih",
+    "EXTRA2": 111,
+    "EXTRA3": 9,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1227,
+    "DSC": "永康",
+    "EXTRA1": "Yongkang",
+    "EXTRA2": 112,
+    "EXTRA3": 9,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1239,
+    "DSC": "大橋",
+    "EXTRA1": "Daciao",
+    "EXTRA2": 113,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1228,
+    "DSC": "台南",
+    "EXTRA1": "Tainan",
+    "EXTRA2": 114,
+    "EXTRA3": 9,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1229,
+    "DSC": "保安",
+    "EXTRA1": "Baoan",
+    "EXTRA2": 115,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1243,
+    "DSC": "仁德",
+    "EXTRA1": "Rende",
+    "EXTRA2": 116,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1230,
+    "DSC": "中洲",
+    "EXTRA1": "Jhongjhou",
+    "EXTRA2": 117,
+    "EXTRA3": 9,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1244,
+    "DSC": "南科",
+    "EXTRA1": "Nanke",
+    "EXTRA2": 110,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1226,
+    "DSC": "新市",
+    "EXTRA1": "Sinshih",
+    "EXTRA2": 111,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1227,
+    "DSC": "永康",
+    "EXTRA1": "Yongkang",
+    "EXTRA2": 112,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1239,
+    "DSC": "大橋",
+    "EXTRA1": "Daciao",
+    "EXTRA2": 113,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1228,
+    "DSC": "台南",
+    "EXTRA1": "Tainan",
+    "EXTRA2": 114,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1229,
+    "DSC": "保安",
+    "EXTRA1": "Baoan",
+    "EXTRA2": 115,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1243,
+    "DSC": "仁德",
+    "EXTRA1": "Rende",
+    "EXTRA2": 116,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1230,
+    "DSC": "中洲",
+    "EXTRA1": "Jhongjhou",
+    "EXTRA2": 117,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 5101,
+    "DSC": "長榮大學",
+    "EXTRA1": "Chang Jung Christian University",
+    "EXTRA2": 118,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 5102,
+    "DSC": "沙崙",
+    "EXTRA1": "Shalun",
+    "EXTRA2": 119,
+    "EXTRA3": 17,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1231,
+    "DSC": "大湖",
+    "EXTRA1": "Dahu",
+    "EXTRA2": 120,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1232,
+    "DSC": "路竹",
+    "EXTRA1": "Lujhu",
+    "EXTRA2": 121,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1233,
+    "DSC": "岡山",
+    "EXTRA1": "Gangshan",
+    "EXTRA2": 122,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1234,
+    "DSC": "橋頭",
+    "EXTRA1": "Ciaotou",
+    "EXTRA2": 123,
+    "EXTRA3": 10,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1235,
+    "DSC": "楠梓",
+    "EXTRA1": "Nanzih",
+    "EXTRA2": 124,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1242,
+    "DSC": "新左營",
+    "EXTRA1": "na",
+    "EXTRA2": 125,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1236,
+    "DSC": "左營",
+    "EXTRA1": "Zuoying",
+    "EXTRA2": 126,
+    "EXTRA3": 10,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1238,
+    "DSC": "高雄",
+    "EXTRA1": "Kaohsiung",
+    "EXTRA2": 127,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1402,
+    "DSC": "鳳山",
+    "EXTRA1": "Fongshan",
+    "EXTRA2": 128,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1403,
+    "DSC": "後庄",
+    "EXTRA1": "Houjhuang",
+    "EXTRA2": 129,
+    "EXTRA3": 10,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1404,
+    "DSC": "九曲堂",
+    "EXTRA1": "Jioucyutang",
+    "EXTRA2": 130,
+    "EXTRA3": 10,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1405,
+    "DSC": "六塊厝",
+    "EXTRA1": "Lioukuaicuo",
+    "EXTRA2": 131,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1406,
+    "DSC": "屏東",
+    "EXTRA1": "Pingtung",
+    "EXTRA2": 132,
+    "EXTRA3": 11,
+    "EXTRA4": 1
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1407,
+    "DSC": "歸來",
+    "EXTRA1": "Gueilai",
+    "EXTRA2": 133,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1408,
+    "DSC": "麟洛",
+    "EXTRA1": "Linluo",
+    "EXTRA2": 134,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1409,
+    "DSC": "西勢",
+    "EXTRA1": "Sishih",
+    "EXTRA2": 135,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1410,
+    "DSC": "竹田",
+    "EXTRA1": "Jhutian",
+    "EXTRA2": 136,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1411,
+    "DSC": "潮州",
+    "EXTRA1": "Chaojhou",
+    "EXTRA2": 137,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1412,
+    "DSC": "崁頂",
+    "EXTRA1": "Kanding",
+    "EXTRA2": 138,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1413,
+    "DSC": "南州",
+    "EXTRA1": "Nanjhou",
+    "EXTRA2": 139,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1414,
+    "DSC": "鎮安",
+    "EXTRA1": "Jhenan",
+    "EXTRA2": 140,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1415,
+    "DSC": "林邊",
+    "EXTRA1": "Linbian",
+    "EXTRA2": 141,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1416,
+    "DSC": "佳冬",
+    "EXTRA1": "Jiadong",
+    "EXTRA2": 142,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1417,
+    "DSC": "東海",
+    "EXTRA1": "Donghai",
+    "EXTRA2": 143,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1418,
+    "DSC": "枋寮",
+    "EXTRA1": "Fangliao",
+    "EXTRA2": 144,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1502,
+    "DSC": "加祿",
+    "EXTRA1": "Jialu",
+    "EXTRA2": 145,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1503,
+    "DSC": "內獅",
+    "EXTRA1": "Neishih",
+    "EXTRA2": 146,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1504,
+    "DSC": "枋山",
+    "EXTRA1": "Fangshan",
+    "EXTRA2": 147,
+    "EXTRA3": 11,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1505,
+    "DSC": "枋野",
+    "EXTRA1": "Fangye",
+    "EXTRA2": 147,
+    "EXTRA3": "",
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1506,
+    "DSC": "中央號誌站",
+    "EXTRA1": "",
+    "EXTRA2": 147,
+    "EXTRA3": "",
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1507,
+    "DSC": "古莊",
+    "EXTRA1": "Gujhuang",
+    "EXTRA2": 148,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1508,
+    "DSC": "大武",
+    "EXTRA1": "Dawu",
+    "EXTRA2": 149,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1510,
+    "DSC": "瀧溪",
+    "EXTRA1": "Lunghsi",
+    "EXTRA2": 150,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1512,
+    "DSC": "金崙",
+    "EXTRA1": "Jinlun",
+    "EXTRA2": 151,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1514,
+    "DSC": "太麻里",
+    "EXTRA1": "Taimali",
+    "EXTRA2": 152,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1516,
+    "DSC": "知本",
+    "EXTRA1": "Jhihben",
+    "EXTRA2": 153,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1517,
+    "DSC": "康樂",
+    "EXTRA1": "Kangle",
+    "EXTRA2": 154,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1632,
+    "DSC": "台東",
+    "EXTRA1": "Taitung",
+    "EXTRA2": 155,
+    "EXTRA3": 12,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1631,
+    "DSC": "山里",
+    "EXTRA1": "Shanli",
+    "EXTRA2": 156,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1630,
+    "DSC": "鹿野",
+    "EXTRA1": "Luye",
+    "EXTRA2": 157,
+    "EXTRA3": 12,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1629,
+    "DSC": "瑞源",
+    "EXTRA1": "Rueiyuan",
+    "EXTRA2": 158,
+    "EXTRA3": 12,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1628,
+    "DSC": "瑞和",
+    "EXTRA1": "Rueihe",
+    "EXTRA2": 159,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1626,
+    "DSC": "關山",
+    "EXTRA1": "Guanshan",
+    "EXTRA2": 160,
+    "EXTRA3": 12,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1625,
+    "DSC": "海端",
+    "EXTRA1": "Haiduan",
+    "EXTRA2": 161,
+    "EXTRA3": 12,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1624,
+    "DSC": "池上",
+    "EXTRA1": "Chihshang",
+    "EXTRA2": 162,
+    "EXTRA3": 12,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1623,
+    "DSC": "富里",
+    "EXTRA1": "Fuli",
+    "EXTRA2": 163,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1622,
+    "DSC": "東竹",
+    "EXTRA1": "Dongjhu",
+    "EXTRA2": 164,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1621,
+    "DSC": "東里",
+    "EXTRA1": "Dongli",
+    "EXTRA2": 165,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1619,
+    "DSC": "玉里",
+    "EXTRA1": "Yuli",
+    "EXTRA2": 166,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1617,
+    "DSC": "三民",
+    "EXTRA1": "Sanmin",
+    "EXTRA2": 167,
+    "EXTRA3": 13,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1616,
+    "DSC": "瑞穗",
+    "EXTRA1": "Rueisuei",
+    "EXTRA2": 168,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1614,
+    "DSC": "富源",
+    "EXTRA1": "Fuyuan",
+    "EXTRA2": 169,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1613,
+    "DSC": "大富",
+    "EXTRA1": "Dafu",
+    "EXTRA2": 170,
+    "EXTRA3": 13,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1612,
+    "DSC": "光復",
+    "EXTRA1": "Guangfu",
+    "EXTRA2": 171,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1611,
+    "DSC": "萬榮",
+    "EXTRA1": "Wanrong",
+    "EXTRA2": 172,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1610,
+    "DSC": "鳳林",
+    "EXTRA1": "Fonglin",
+    "EXTRA2": 173,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1609,
+    "DSC": "南平",
+    "EXTRA1": "Nanping",
+    "EXTRA2": 174,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1607,
+    "DSC": "豐田",
+    "EXTRA1": "Fongtian",
+    "EXTRA2": 175,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1606,
+    "DSC": "壽豐",
+    "EXTRA1": "Shoufong",
+    "EXTRA2": 176,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1605,
+    "DSC": "平和",
+    "EXTRA1": "Pinghe",
+    "EXTRA2": 177,
+    "EXTRA3": 13,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1604,
+    "DSC": "志學",
+    "EXTRA1": "Jhihsyue",
+    "EXTRA2": 178,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1602,
+    "DSC": "吉安",
+    "EXTRA1": "Jian",
+    "EXTRA2": 179,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1715,
+    "DSC": "花蓮",
+    "EXTRA1": "Hualien",
+    "EXTRA2": 180,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1714,
+    "DSC": "北埔",
+    "EXTRA1": "Beipu",
+    "EXTRA2": 181,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1713,
+    "DSC": "景美",
+    "EXTRA1": "Jingmei",
+    "EXTRA2": 182,
+    "EXTRA3": 13,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1712,
+    "DSC": "新城",
+    "EXTRA1": "Sincheng",
+    "EXTRA2": 183,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1711,
+    "DSC": "崇德",
+    "EXTRA1": "Chongde",
+    "EXTRA2": 184,
+    "EXTRA3": 13,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1710,
+    "DSC": "和仁",
+    "EXTRA1": "Horen",
+    "EXTRA2": 185,
+    "EXTRA3": 13,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1709,
+    "DSC": "和平",
+    "EXTRA1": "Heping",
+    "EXTRA2": 186,
+    "EXTRA3": 13,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1708,
+    "DSC": "漢本",
+    "EXTRA1": "Hanben",
+    "EXTRA2": 187,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1706,
+    "DSC": "武塔",
+    "EXTRA1": "Wuta",
+    "EXTRA2": 188,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1705,
+    "DSC": "南澳",
+    "EXTRA1": "Nanao",
+    "EXTRA2": 189,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1704,
+    "DSC": "東澳",
+    "EXTRA1": "Dongao",
+    "EXTRA2": 190,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1703,
+    "DSC": "永樂",
+    "EXTRA1": "Yongle",
+    "EXTRA2": 191,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1827,
+    "DSC": "蘇澳",
+    "EXTRA1": "Suao",
+    "EXTRA2": 192,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1826,
+    "DSC": "蘇澳新",
+    "EXTRA1": "Suaosin",
+    "EXTRA2": 193,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1825,
+    "DSC": "新馬",
+    "EXTRA1": "Sinma",
+    "EXTRA2": 194,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1824,
+    "DSC": "冬山",
+    "EXTRA1": "Dongshan",
+    "EXTRA2": 195,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1823,
+    "DSC": "羅東",
+    "EXTRA1": "Luodong",
+    "EXTRA2": 196,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1822,
+    "DSC": "中里",
+    "EXTRA1": "Jhongli",
+    "EXTRA2": 197,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1821,
+    "DSC": "二結",
+    "EXTRA1": "Erjie",
+    "EXTRA2": 198,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1820,
+    "DSC": "宜蘭",
+    "EXTRA1": "Yilan",
+    "EXTRA2": 199,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1819,
+    "DSC": "四城",
+    "EXTRA1": "Sihcheng",
+    "EXTRA2": 200,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1818,
+    "DSC": "礁溪",
+    "EXTRA1": "Jiaohsi",
+    "EXTRA2": 201,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1817,
+    "DSC": "頂埔",
+    "EXTRA1": "Dingpu",
+    "EXTRA2": 202,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1816,
+    "DSC": "頭城",
+    "EXTRA1": "Toucheng",
+    "EXTRA2": 203,
+    "EXTRA3": 14,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1815,
+    "DSC": "外澳",
+    "EXTRA1": "Waiao",
+    "EXTRA2": 204,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1814,
+    "DSC": "龜山",
+    "EXTRA1": "Gueishan",
+    "EXTRA2": 205,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1813,
+    "DSC": "大溪",
+    "EXTRA1": "Dasi",
+    "EXTRA2": 206,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1812,
+    "DSC": "大里",
+    "EXTRA1": "Dali",
+    "EXTRA2": 207,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1811,
+    "DSC": "石城",
+    "EXTRA1": "Shihcheng",
+    "EXTRA2": 208,
+    "EXTRA3": 14,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1810,
+    "DSC": "福隆",
+    "EXTRA1": "Fulong",
+    "EXTRA2": 209,
+    "EXTRA3": 1,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1809,
+    "DSC": "貢寮",
+    "EXTRA1": "Gungliao",
+    "EXTRA2": 210,
+    "EXTRA3": 1,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1808,
+    "DSC": "雙溪",
+    "EXTRA1": "Shuangsi",
+    "EXTRA2": 211,
+    "EXTRA3": 1,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1807,
+    "DSC": "牡丹",
+    "EXTRA1": "Mudan",
+    "EXTRA2": 212,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1908,
+    "DSC": "菁桐",
+    "EXTRA1": "Jingtong",
+    "EXTRA2": 213,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1907,
+    "DSC": "平溪",
+    "EXTRA1": "Pingsi",
+    "EXTRA2": 214,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1906,
+    "DSC": "嶺腳",
+    "EXTRA1": "Lingjiao",
+    "EXTRA2": 215,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1905,
+    "DSC": "望古",
+    "EXTRA1": "Wanggu",
+    "EXTRA2": 216,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1904,
+    "DSC": "十分",
+    "EXTRA1": "Shihfen",
+    "EXTRA2": 217,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1903,
+    "DSC": "大華",
+    "EXTRA1": "Dahua",
+    "EXTRA2": 218,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 2002,
+    "DSC": "深澳",
+    "EXTRA1": "na",
+    "EXTRA2": 219,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1806,
+    "DSC": "三貂嶺",
+    "EXTRA1": "Sandiaoling",
+    "EXTRA2": 220,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1805,
+    "DSC": "侯硐",
+    "EXTRA1": "Houtung",
+    "EXTRA2": 221,
+    "EXTRA3": 18,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1804,
+    "DSC": "瑞芳",
+    "EXTRA1": "Rueifang",
+    "EXTRA2": 222,
+    "EXTRA3": 18,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1806,
+    "DSC": "三貂嶺",
+    "EXTRA1": "Sandiaoling",
+    "EXTRA2": 220,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1805,
+    "DSC": "侯硐",
+    "EXTRA1": "Houtung",
+    "EXTRA2": 221,
+    "EXTRA3": 1,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1804,
+    "DSC": "瑞芳",
+    "EXTRA1": "Rueifang",
+    "EXTRA2": 222,
+    "EXTRA3": 1,
+    "EXTRA4": 0
+  },
+  {
+    "KIND": "STATION",
+    "ID": 6103,
+    "DSC": "海科館",
+    "EXTRA1": "na",
+    "EXTRA2": 223,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1803,
+    "DSC": "四腳亭",
+    "EXTRA1": "Sihjiaoting",
+    "EXTRA2": 224,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1802,
+    "DSC": "暖暖",
+    "EXTRA1": "Nuannuan",
+    "EXTRA2": 225,
+    "EXTRA3": 18,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1803,
+    "DSC": "四腳亭",
+    "EXTRA1": "Sihjiaoting",
+    "EXTRA2": 224,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 1802,
+    "DSC": "暖暖",
+    "EXTRA1": "Nuannuan",
+    "EXTRA2": 225,
+    "EXTRA3": 1,
+    "EXTRA4": ""
+  },
+  {
+    "KIND": "STATION",
+    "ID": 0,
+    "DSC": "不跨日",
+    "EXTRA1": "",
+    "EXTRA2": "",
+    "EXTRA3": "",
+    "EXTRA4": ""
+  }
+]
