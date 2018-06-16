@@ -70,12 +70,12 @@
 
     <!-- Zabuto Calendar -->
     <script src="js/calendar/zabuto_calendar.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="js/calendar/zabuto_calendar.min.css">
+    <link rel="stylesheet" type="text/css" href="js/calendar/zabuto_calendar.css">
 
     <!-- Custom Stripts -->
 	<script type="text/javascript" src="js/url.min.js"></script>
 </head>
-<body>
+<body style = "padding-top:40px;">
 <?php include "navbar.html" ?>
 
 <div class="jumbotron">

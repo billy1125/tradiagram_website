@@ -12,10 +12,35 @@
 		-webkit-transition: background .5s linear;
     transition: background .5s linear;
 	}
-</style> 
+</style>
+
+<script type="text/javascript">
+    //$(window).on('load',function(){
+        //$('#myModal').modal('show');
+    //});
+</script>
 
 </head>
-<body>
+<body style = "padding-top:40px;">
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">公告</h4>
+      </div>
+      <div class="modal-body">
+        <p>由於目前台鐵時刻表公開資料 JSON 檔不知原因無法提供（<a href= 'http://163.29.3.98/json/'>連結</a>），目前最新資料僅停留在 2018.8.3，敬請見諒。目前該問題已寫信詢問台鐵，期望僅是一時的問題，感謝大家的支持。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">關閉</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <?php include "navbar.html" ?>
 
@@ -26,37 +51,44 @@
   </div>
 </div>
   
-<div class="container-fluid bg-1 text-center">    
-  <h1 class="page-header">台鐵各運行路線</h3>
+<div class="container bg-1 text-center">    
+  <h2 class="page-header">台鐵各運行路線</h2>
   <div class="row">
-
-    <p><div class="col-md-3 portfolio-item"><div class="btn-group-vertical btn-block">
-		<a href = 'lines.php?lineKind=west_link_north' class="btn btn-primary btn-lg" role="button">西部幹線北段</a>
-		<a href = 'lines.php?lineKind=west_link_south' class="btn btn-primary btn-lg" role="button">西部幹線南段</a>
-		<a href = 'lines.php?lineKind=west_link_moutain' class="btn btn-primary btn-lg" role="button">西部幹線山線</a>
-		<a href = 'lines.php?lineKind=west_link_sea' class="btn btn-primary btn-lg" role="button">西部幹線海線</a>
-	</div></div></p>
+    <div class="col-md-4 portfolio-item">
+      <h4></h4>
+      <div class="btn-group-vertical btn-block">
+        <a href = 'lines.php?lineKind=west_link_north' class="btn btn-primary btn-lg" role="button">北段</a> 
+        <a href = 'lines.php?lineKind=west_link_moutain' class="btn btn-primary btn-lg" role="button">山線</a>
+        <a href = 'lines.php?lineKind=west_link_sea' class="btn btn-primary btn-lg" role="button">海線</a>
+        <a href = 'lines.php?lineKind=west_link_south' class="btn btn-primary btn-lg" role="button">南段</a>
+        <a href = 'lines.php?lineKind=pingtung' class="btn btn-primary btn-lg" role="button">屏東線</a>
+      </div>
+    </div>
+    
+    <div class="col-md-4 portfolio-item">
+      <h4></h4>
+      <div class="btn-group-vertical btn-block">
+        <a href = 'lines.php?lineKind=yilan' class="btn btn-primary btn-lg" role="button">宜蘭線</a>
+        <a href = 'lines.php?lineKind=north_link' class="btn btn-primary btn-lg" role="button">北迴線</a>
+        <a href = 'lines.php?lineKind=taitung' class="btn btn-primary btn-lg" role="button">台東線</a>
+      </div> 
+      <div class="btn-group-vertical btn-block">
+        <a href = 'lines.php?lineKind=south_link' class="btn btn-primary btn-lg" role="button">南迴線</a>        
+      </div>
+    </div>
 	
-	<p><div class="col-md-3 portfolio-item"><div class="btn-group-vertical btn-block">
-		<a href = 'lines.php?lineKind=pingtung' class="btn btn-primary btn-lg" role="button">屏東線</a>
-		<a href = 'lines.php?lineKind=south_link' class="btn btn-primary btn-lg" role="button">南迴線</a>
-		<a href = 'lines.php?lineKind=taitung' class="btn btn-primary btn-lg" role="button">台東線</a>
-		<a href = 'lines.php?lineKind=north_link' class="btn btn-primary btn-lg" role="button">北迴線</a>
-		<a href = 'lines.php?lineKind=yilan' class="btn btn-primary btn-lg" role="button">宜蘭線</a>
-	</div></div></p>
-	
-	<p><div class="col-md-3 portfolio-item"><div class="btn-group-vertical btn-block">
-		<a href = 'lines.php?lineKind=pingxi' class="btn btn-primary btn-lg" role="button">平溪深澳線</a>
-		<a href = 'lines.php?lineKind=neiwan' class="btn btn-primary btn-lg" role="button">內灣線</a>
-		<a href = 'lines.php?lineKind=jiji' class="btn btn-primary btn-lg" role="button">集集線</a>
-		<a href = 'lines.php?lineKind=shalun' class="btn btn-primary btn-lg" role="button">沙崙線</a>
-	</div></div></p>
-
-	<p><div class="col-md-3 portfolio-item"><div class="btn-group-vertical btn-block">
-		<a href = 'special_use.php' class="btn btn-primary btn-lg" role="button">特殊運用(如:蒸汽火車)</a>
-		<!-- <a href = 'timetable.php' class="btn btn-primary btn-lg" role="button">列車時刻查詢</a>
-		<a href = 'admin/login.php' class="btn btn-primary btn-lg" role="button">管理介面</a> -->
-		</div></p>
+    <div class="col-md-4 portfolio-item">
+      <h4></h4>
+      <div class="btn-group-vertical btn-block">
+        <a href = 'lines.php?lineKind=pingxi' class="btn btn-primary btn-lg" role="button">平溪深澳線</a>
+        <a href = 'lines.php?lineKind=neiwan' class="btn btn-primary btn-lg" role="button">內灣線</a>
+        <a href = 'lines.php?lineKind=jiji' class="btn btn-primary btn-lg" role="button">集集線</a>
+        <a href = 'lines.php?lineKind=shalun' class="btn btn-primary btn-lg" role="button">沙崙線</a>
+      </div>
+      <div class="btn-group-vertical btn-block">
+        <a href = 'special_use.php' class="btn btn-primary btn-lg" role="button">特殊運用(如:蒸汽火車)</a>
+      </div>
+    </div>
   </div>
 </div>
 <br>

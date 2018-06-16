@@ -1,6 +1,7 @@
+
 line {
     stroke-width:0.5;
-    stroke-dasharray:5,5
+    stroke-dasharray:1,2
 }
 
 .hour_line {
@@ -24,7 +25,7 @@ line {
 }
 
 path {
-    stroke-width:1.5;
+    stroke-width:2.0;
     fill:none
 }
 
@@ -42,6 +43,16 @@ path {
 
 .tze_chiang_diesel {
     stroke:#ff9933;
+}
+
+.emu1200{
+    stroke: #ff008c;
+	stroke-dasharray:25,5;
+}
+
+.emu300{
+    stroke:#ff4444;
+	stroke-dasharray:25,5;
 }
 
 .chu_kuang {

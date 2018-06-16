@@ -12,7 +12,7 @@
   
 <?php include "head.html" ?>
 
-<body>
+<body style = "padding-top:40px;">
 
 <?php include "navbar.html" ?>
 
