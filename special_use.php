@@ -33,36 +33,14 @@
 			//$fileName = str_replace('diagramFile_' , '', $cart[$x]['date']);
 			//$fileName = str_replace('.html', '', $fileName);
 			//echo "<h2>Example <span class='label label-default'>";
-			echo "<li class='list-group-item'><a href='./diagram/special_use/" . $cart[$x]['date'] . "/" . $cart[$x]['diagramFile'] . "' >" . 
-			$cart[$x]['date'] . "-" . $cart[$x]['trainName'] . "</a></li>";
+			echo "<li class='list-group-item'><a href='./diagram/special_use/" . $cart[$x]['diagramFile'] . "' >" . 
+			$cart[$x]['date'] . " - " . $cart[$x]['trainName'] . "</a></li>";
 			//echo "</span></h2>";
 		}
 		?>
     </ul>
   </div>
 </div><br>
-
-<!--<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br><br>-->
-
 
 <footer class="container-fluid text-center">
 <?php echo footer ?>
