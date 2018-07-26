@@ -47,7 +47,7 @@
 <div class="jumbotron">
   <div class="container text-center">
     <h1>台灣鐵路運行圖</h1>      
-    <p>歡迎來到台鐵運行圖網站</p>
+    <p>歡迎來到台灣鐵路運行圖網站，包括台鐵與高鐵之鐵路運行圖，每日更新中!</p>
   </div>
 </div>
   
@@ -55,7 +55,7 @@
   <h2 class="page-header">台鐵各運行路線</h2>
   <div class="row">
     <div class="col-md-4 portfolio-item">
-      <h4></h4>
+      <h4>西部幹線</h4>
       <div class="btn-group-vertical btn-block">
         <a href = 'lines.php?lineKind=west_link_north' class="btn btn-primary btn-lg" role="button">北段</a> 
         <a href = 'lines.php?lineKind=west_link_moutain' class="btn btn-primary btn-lg" role="button">山線</a>
@@ -66,7 +66,7 @@
     </div>
     
     <div class="col-md-4 portfolio-item">
-      <h4></h4>
+      <h4>東部幹線與南迴線</h4>
       <div class="btn-group-vertical btn-block">
         <a href = 'lines.php?lineKind=yilan' class="btn btn-primary btn-lg" role="button">宜蘭線</a>
         <a href = 'lines.php?lineKind=north_link' class="btn btn-primary btn-lg" role="button">北迴線</a>
@@ -78,16 +78,33 @@
     </div>
 	
     <div class="col-md-4 portfolio-item">
-      <h4></h4>
+      <h4>支線</h4>
       <div class="btn-group-vertical btn-block">
         <a href = 'lines.php?lineKind=pingxi' class="btn btn-primary btn-lg" role="button">平溪深澳線</a>
         <a href = 'lines.php?lineKind=neiwan' class="btn btn-primary btn-lg" role="button">內灣線</a>
         <a href = 'lines.php?lineKind=jiji' class="btn btn-primary btn-lg" role="button">集集線</a>
         <a href = 'lines.php?lineKind=shalun' class="btn btn-primary btn-lg" role="button">沙崙線</a>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="container bg-1 text-center">    
+  <h2 class="page-header">其他</h2>
+  <div class="row">
+    <div class="col-md-4 portfolio-item">
+      <h4></h4>
       <div class="btn-group-vertical btn-block">
         <a href = 'special_use.php' class="btn btn-primary btn-lg" role="button">特殊運用(如:蒸汽火車)</a>
       </div>
+
+    </div>
+    <div class="col-md-4 portfolio-item">
+      <h4></h4>
+      <div class="btn-group-vertical btn-block">
+        <a href = 'lines.php?lineKind=thsr' class="btn btn-primary btn-lg" role="button">台灣高鐵(測試中)</a>
+      </div>
+
     </div>
   </div>
 </div>

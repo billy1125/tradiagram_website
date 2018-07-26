@@ -37,6 +37,8 @@ switch ($lineKind) {
 	break;
 	case "north_link": $fileLeadName = "/NORTHLINK" . "_";
 	break;
+	case "thsr": $fileLeadName = "/";
+	break;
 }
 
 $aryItem = array();

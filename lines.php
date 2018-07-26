@@ -35,6 +35,8 @@
 		break;
 		case "north_link": $fileLeadName = "/NORTHLINK" . "_";
 		break;
+		case "thsr": $fileLeadName = "";
+		break;
 	}
 	switch ($lineKind) {
 		case "west_link_north": $lineName = "西部幹線北段";
@@ -62,6 +64,8 @@
 		case "yilan": $lineName = "宜蘭線";
 		break;
 		case "north_link": $lineName = "北迴線";
+		break;
+		case "thsr": $lineName = "台灣高鐵";
 		break;
 	}
 	?>
