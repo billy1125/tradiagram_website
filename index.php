@@ -106,6 +106,13 @@
       </div>
 
     </div>
+    <div class="col-md-4 portfolio-item">
+      <h4></h4>
+      <div class="btn-group-vertical btn-block">
+        <a href = 'liveboard' class="btn btn-primary btn-lg" role="button">即時列車資訊</a>
+      </div>
+
+    </div>
   </div>
 </div>
 <br>
