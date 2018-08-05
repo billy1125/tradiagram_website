@@ -76,56 +76,59 @@
     <h1>即時列車資訊</h1>      
   </div>
 </div>
-  
-<div class="container"> 
-  <div class="form-group">
-    <form onsubmit="return false;" method='post' id="my_form" class="form-query">
-      <h3>選擇車站</h3>  
-      <select class="form-control" id="sel1">
-          <option value="0">請選擇</option>
-          <option value="1">台北地區</option>
-          <option value="2">桃園地區</option>
-          <option value="3">新竹地區</option>
-          <option value="4">苗栗地區</option>
-          <option value="5">台中地區</option>
-          <option value="6">彰化地區</option>
-          <option value="7">雲林地區</option>
-          <option value="8">嘉義地區</option>
-          <option value="9">台南地區</option>
-          <option value="10">高雄地區</option>
-          <option value="11">屏東地區</option>
-          <option value="12">台東地區</option>
-          <option value="13">花蓮地區</option>
-          <option value="14">宜蘭地區</option>
-          <option value="15">內灣線</option>
-          <option value="16">集集線</option>
-          <option value="17">沙崙線</option>
-          <option value="18">平溪線</option>
-        </select> 
-      <select class="form-control" id="sel2" name="start_station"></select>
-      <br>
-      <button type="submit" class="btn btn-primary btn-lg">送出</button>
 
-    </form>
+<form onsubmit="return false;" method='post' id="my_form" class="form-inline">
+  <div class="container"> 
+  <h3>選擇車站</h3>  
+    <div class="form-group">
+      <select class="form-control" id="sel1">
+        <option value="0">請選擇地區</option>
+        <option value="1">台北地區</option>
+        <option value="2">桃園地區</option>
+        <option value="3">新竹地區</option>
+        <option value="4">苗栗地區</option>
+        <option value="5">台中地區</option>
+        <option value="6">彰化地區</option>
+        <option value="7">雲林地區</option>
+        <option value="8">嘉義地區</option>
+        <option value="9">台南地區</option>
+        <option value="10">高雄地區</option>
+        <option value="11">屏東地區</option>
+        <option value="12">台東地區</option>
+        <option value="13">花蓮地區</option>
+        <option value="14">宜蘭地區</option>
+        <option value="15">內灣線</option>
+        <option value="16">集集線</option>
+        <option value="17">沙崙線</option>
+          <option value="18">平溪線</option>
+      </select> 
+    </div>
+    <div class="form-group">
+      <select class="form-control" id="sel2" name="start_station">
+        <option value="0">...</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">查詢</button>
   </div>
-</div>
+</form>
 
 <div class="container">
     <h3>查詢結果</h3>
-    
-    <table id="mytable" class="table table-striped">
-      <thead>
-        <th>車次</th>
-        <th>車種</th>
-        <th>順/逆行</th>
-        <th>開往</th>
-        <th>預計到站時間</th>
-        <th>預計離站時間</th>
-        <th>預計延誤時間（分）</th>
-        <th>更新時間（公開資料平台更新時間，非即時）</th>
-      </thead>
-      <tbody></tbody>
-    </table>   
+    <div class="table-responsive">
+      <table id="mytable" class="table table-striped">
+        <thead>
+          <th>車次</th>
+          <th>車種</th>
+          <th>順/逆行</th>
+          <th>開往</th>
+          <th>預計到站時間</th>
+          <th>預計離站時間</th>
+          <th>預計延誤時間（分）</th>
+          <th>更新時間（公開資料平台更新時間，非即時）</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 </div>
 
 <script>

@@ -102,7 +102,7 @@
     <div class="col-md-4 portfolio-item">
       <h4></h4>
       <div class="btn-group-vertical btn-block">
-        <a href = 'lines.php?lineKind=thsr' class="btn btn-primary btn-lg" role="button">台灣高鐵(測試中)</a>
+        <a href = 'lines.php?lineKind=thsr' class="btn btn-primary btn-lg" role="button">台灣高鐵</a>
       </div>
 
     </div>
