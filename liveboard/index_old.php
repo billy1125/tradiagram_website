@@ -113,10 +113,22 @@
 </form>
 
 <div class="container">
-  <h2>目前即將到站列車</h2>
-  備註：列車到站資訊為公開平台所提供，可能與現場有所差異，僅供參考。
-  <div id="div_data"></div>
-  <h1></h1>  
+    <h3>查詢結果</h3>
+    <div class="table-responsive">
+      <table id="mytable" class="table table-striped">
+        <thead>
+          <th>車次</th>
+          <th>車種</th>
+          <th>順/逆行</th>
+          <th>開往</th>
+          <th>預計到站時間</th>
+          <th>預計離站時間</th>
+          <th>預計延誤時間（分）</th>
+          <th>更新時間（公開資料平台更新時間，非即時）</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 </div>
 
 <script>
@@ -187,7 +199,7 @@ $("#sel1").change(function(){
   $(document).ready(function(){
     $("form").submit(function(e){
       //alert($("#sel2").find(":selected").val());
-      $('#div_data').empty();
+      $('#mytable tbody').empty();
       checkRegAcc($("#sel2").find(":selected").val());
     });
   });
@@ -201,18 +213,17 @@ $("#sel1").change(function(){
         var i = 0;
         //這裡改用.each這個函式來取出JData裡的物件
         $.each(JData, function() {
-          //呼叫方式也稍微改變了一下，意思等同於上述的的JData[i]["idx_Key"]    $("#mytable tbody").append("<tr>" +
-          
-          $("#div_data").append("<div class='panel panel-" +　JData[i].Panel + "'>" +
-                                "<div class='panel-heading'><span class='badge'>" + JData[i].DelayTime + "</span>" + "    車次：" 
-                                  + JData[i].TrainNo  + "｜車種：" + JData[i].TrainTypeName.Zh_tw + "｜"
-                                　+ JData[i].Direction + "｜開往：" + JData[i].EndingStationName + 
-                                "</div>" +
-                                "<div class='panel-body'>" +
-                                  "預計到站時間：" + JData[i].ScheduledArrivalTime    + "<br>" +
-                                  "預計離站時間：" + JData[i].ScheduledDepartureTime + "<br>" +
-                                  "更新時間：" + JData[i].UpdateTime + "<br>" +
-                                "</div></div>");
+          //呼叫方式也稍微改變了一下，意思等同於上述的的JData[i]["idx_Key"]
+          $("#mytable tbody").append("<tr>" +
+                                "<td>" + JData[i].TrainNo  + "</td>" +
+                                "<td>" + JData[i].TrainTypeName.Zh_tw   + "</td>" +
+                                "<td>" + JData[i].Direction    + "</td>" +
+                                "<td>" + JData[i].EndingStationName    + "</td>" +
+                                "<td>" + JData[i].ScheduledArrivalTime    + "</td>" +
+                                "<td>" + JData[i].ScheduledDepartureTime + "</td>" +
+                                "<td>" + JData[i].DelayTime + "</td>" +
+                                "<td>" + JData[i].UpdateTime + "</td>" +
+                                "</tr>");
           i++;
         });
       },

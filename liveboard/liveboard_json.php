@@ -9,6 +9,8 @@
 
 
 	$aryItem = array();
+	$DelayTime = "";
+	$Panel = "";
 
 	foreach($liveTrains as $item) {
 		if($item['StationID'] == $stationID ){
@@ -22,9 +24,19 @@
 			$objItem -> EndingStationName = $item['EndingStationName']['Zh_tw'];
 			$objItem -> ScheduledArrivalTime = $item['ScheduledArrivalTime'];
 			$objItem -> ScheduledDepartureTime = $item['ScheduledDepartureTime'];
-			$objItem -> DelayTime = $item['DelayTime'];
-			$objItem -> UpdateTime = $item['UpdateTime'];
 			
+			if ($item['DelayTime'] == "0")
+			{
+				$DelayTime = "準點";
+				$Panel = "primary";
+			}else
+			{
+				$DelayTime = "預計延誤時間：" . $item['DelayTime'] . " 分鐘";
+				$Panel = "danger";
+			}
+			$objItem -> DelayTime = $DelayTime;
+			$objItem -> UpdateTime = $item['UpdateTime'];
+			$objItem -> Panel = $Panel;
 
 			array_push($aryItem, $objItem);
 		}
