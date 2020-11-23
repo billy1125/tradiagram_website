@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh">
 	<?php
-	require_once("default.php");
+	require_once("vendor/variables.php");
     $json = file_get_contents("./diagram/special_use/data.json");
 	
 	$cart = json_decode( $json, true );
@@ -10,11 +10,11 @@
 
   <title><?php echo web_name . " 特殊運用" ?></title>
   
-<?php include "head.html" ?>
+<?php include "vendor/head.html" ?>
 
 <body style = "padding-top:40px;">
 
-<?php include "navbar.html" ?>
+<?php include "vendor/navbar.html" ?>
 
 <div class="jumbotron">
   <div class="container text-center">

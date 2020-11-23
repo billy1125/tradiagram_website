@@ -70,7 +70,7 @@
 	}
 	$file_name = $lineKind . $fileLeadName . $date . ".svg";
     ?>
-    <?php include "head.html" ?>
+    <?php include "vendor/head.html" ?>
     <title><?php echo $lineName . " 日期：" . $date ?></title>
     
     

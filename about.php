@@ -2,17 +2,17 @@
 <html lang="zh">
 <head>
   <?php
-	require_once("default.php");
+	require_once("vendor/variables.php");
   ?>
 
   <title><?php echo web_name . " 關於本站" ?></title>
 
-<?php include "head.html" ?>
+<?php include "vendor/head.html" ?>
 
 </head>
 <body style = "padding-top:40px;">
 
-<?php include "navbar.html" ?>
+<?php include "vendor/navbar.html" ?>
 
 <div class="jumbotron">
   <div class="container text-center">

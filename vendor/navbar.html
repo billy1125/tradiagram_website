@@ -1,0 +1,62 @@
+<!-- 功能表 -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">目錄</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+			<li class="active"><a href="./"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">西部幹線<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href = 'lines.php?lineKind=west_link_north'>北段</a></li>
+					<li><a href = 'lines.php?lineKind=west_link_moutain'>山線</a></li>
+					<li><a href = 'lines.php?lineKind=west_link_sea'>海線</a></li>
+					<li><a href = 'lines.php?lineKind=west_link_south'>南段</a></li>
+					<li><a href = 'lines.php?lineKind=pingtung'>屏東線</a></li>
+				</ul>
+			</li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">東部幹線<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href = 'lines.php?lineKind=yilan'>宜蘭線</a></li>
+					<li><a href = 'lines.php?lineKind=north_link'>北迴線</a></li>
+					<li><a href = 'lines.php?lineKind=taitung'>台東線</a></li>
+				</ul>
+			</li>
+			<li><a href = 'lines.php?lineKind=south_link'>南迴線</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">支線<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href = 'lines.php?lineKind=pingxi'>平溪深澳線</a></li>
+					<li><a href = 'lines.php?lineKind=neiwan'>內灣線</a></li>
+					<li><a href = 'lines.php?lineKind=jiji'>集集線</a></li>
+					<li><a href = 'lines.php?lineKind=shalun'>沙崙線</a></li>
+				</ul>
+			</li>
+			<li><a href = 'special_use.php?'>特殊運用</a></li>
+			<li><a href = 'lines.php?lineKind=thsr'>台灣高鐵</a></li>
+			<!--<li><a href = '/liveboard'>即時列車資訊</a></li>
+			 <li><a href='http://tradiagram.com/timetable.php'><span class="fa fa-train"></span> 時刻表查詢</a></li> -->
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">其他<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href='https://github.com/billy1125/TRA_time_space_diagram'><span class="fa fa-github"></span> GitHub(台鐵運行圖)</a></li>
+					<li><a href='https://github.com/billy1125/THSR_time_space_diagram'><span class="fa fa-github"></span> GitHub(高鐵運行圖)</a></li>
+					<li><a href='https://www.facebook.com/traDiagram/'><span class="fa fa-facebook-official"></span> facebook</a></li>
+					<!--<li><a href='https://www.dropbox.com/sh/40dumhm1x0u7xdp/AABXmOshi37KQ5g4h6qH-ZC_a?dl=0'><span class="fa fa-dropbox"></span> DropBox</a></li> -->
+					<li><a href='about.php'><span class="fa fa-exclamation-circle"></span> about</a></li>
+					<li><a href='mailto:billy1125@gmail.com'><span class="fa fa-envelope"></span> contact</a></li>
+				</ul>
+			</li>
+		</ul>
+
+    </div>
+  </div>
+</nav>
